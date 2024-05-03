@@ -4,7 +4,7 @@
 
 plugins {
     id("hr.mmaracic.java-application-conventions")
-    id("com.microsoft.azure.azurewebapp") version "1.8.0"
+    id("com.microsoft.azure.azurewebapp") version "1.10.0"
 }
 
 dependencies {
@@ -22,7 +22,7 @@ azurewebapp {
     setRuntime(closureOf<com.microsoft.azure.gradle.configuration.GradleRuntimeConfig> {
         os("Linux")
         webContainer("Java SE")
-        javaVersion("Java 17")
+        javaVersion("Java 21")
     })
     setAppSettings(closureOf<MutableMap<String, String>> {
 //        put("key", "value")

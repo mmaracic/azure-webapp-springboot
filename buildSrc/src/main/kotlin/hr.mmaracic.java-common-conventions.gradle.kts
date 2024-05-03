@@ -20,7 +20,7 @@ repositories {
 
 group "hr.mmaracic"
 version "1.0-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_21
 
 //Needs to be here otherwise versions won't transfer to modules that do not apply org.springframework.boot plugin (libraries)
 dependencyManagement {

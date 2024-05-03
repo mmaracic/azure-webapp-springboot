@@ -11,7 +11,7 @@ plugins {
 }
 
 val props = Properties().apply {
-    load(FileInputStream(File("gradle.properties")))
+    load(FileInputStream(file("../gradle.properties")))
 }
 
 repositories {
@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.spring.gradle:dependency-management-plugin:1.0.15.RELEASE")
+    implementation("io.spring.gradle:dependency-management-plugin:1.1.4")
     //Defines the spring version
     implementation("org.springframework.boot:spring-boot-gradle-plugin:${props.getProperty("springVersion")}")
 }
