@@ -1,6 +1,6 @@
 # Azure Web App
 
-## App Service Documentation
+## Azure App Service Documentation
 ### Java and Spring Boot with Gradle
 https://learn.microsoft.com/hr-hr/azure/app-service/configure-language-java?pivots=platform-linux#gradle
 
@@ -20,3 +20,6 @@ Login to Azure using "az login" or "az login --use-device-code" which enables lo
 ```
   gradle azureWebAppDeploy
 ```
+## Azure Container Apps
+Documentation:
+https://learn.microsoft.com/en-us/azure/container-apps/
